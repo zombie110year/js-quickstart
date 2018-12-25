@@ -37,6 +37,7 @@ JavaScript 是一门非常简单的语言, 要掌握它的基本用法甚至可�
 .. toctree::
     :maxdepth: 1
     :caption: 实践
+    :glob:
     :numbered:
 
     prac-*
@@ -44,6 +45,7 @@ JavaScript 是一门非常简单的语言, 要掌握它的基本用法甚至可�
 .. toctree::
     :maxdepth: 1
     :caption: 扩展阅读
+    :glob:
     :numbered:
 
     whatis-*
@@ -51,6 +53,7 @@ JavaScript 是一门非常简单的语言, 要掌握它的基本用法甚至可�
 .. toctree::
     :maxdepth: 1
     :caption: 附录
+    :glob:
     :numbered:
 
     ref-*
