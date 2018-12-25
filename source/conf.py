@@ -43,6 +43,7 @@ release = ''
 # ones.
 extensions = [
     'sphinx.ext.githubpages',
+    'sphinx.ext.mathjax'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
