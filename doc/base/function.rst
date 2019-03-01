@@ -2,7 +2,7 @@
 函数
 ####
 
-.. code=block:: javascript
+.. code-block:: javascript
 
     function functionName( parameter1, parameter2, ...) {
         // function body

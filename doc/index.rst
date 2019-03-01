@@ -27,36 +27,11 @@ JavaScript 是一门非常简单的语言, 要掌握它的基本用法甚至可�
 
 .. toctree::
     :maxdepth: 2
-    :caption: 基础
-    :numbered:
 
-    grammar
-    function
-    object-oriented
-
-.. toctree::
-    :maxdepth: 1
-    :caption: 实践
-    :glob:
-    :numbered:
-
-    prac-*
-
-.. toctree::
-    :maxdepth: 1
-    :caption: 扩展阅读
-    :glob:
-    :numbered:
-
-    whatis-*
-
-.. toctree::
-    :maxdepth: 1
-    :caption: 附录
-    :glob:
-    :numbered:
-
-    ref-*
+    base/index
+    prac/index
+    whatis/index
+    ref/index
 
 .. note:: 对贡献者
 
