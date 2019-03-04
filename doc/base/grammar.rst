@@ -728,4 +728,5 @@ break 与 continue
 - ``continue`` 从当前位置中断, 进入下一次循环
 
 .. [#不要使用位运算] 参考 http://jerryzou.com/posts/do-you-really-want-use-bit-operators-in-JavaScript/
-.. [#字面值] 字面值, 是直接书写在代码中的数据, 它们将以各自的格式被 解释器/编译器 解析为对应的数据类型.
+.. [#字面值] 字面值, 是直接书写在代码中的数据,
+    它们将以各自的格式被 解释器/编译器 解析为对应的数据类型.

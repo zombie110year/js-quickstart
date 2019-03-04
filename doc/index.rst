@@ -23,8 +23,6 @@ JavaScript 是一门非常简单的语言, 要掌握它的基本用法甚至可�
     - 为静态网页添加效果
 - 对 nodejs, typescript, vue.js, react, electron ... 产生大概的认识
 
-好了, 让我们开始学习吧!
-
 .. toctree::
     :maxdepth: 2
 
