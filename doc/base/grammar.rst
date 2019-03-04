@@ -721,6 +721,14 @@ C, C++, Java 的控制结构语法 |js| 都可以使用, |js| 相比前三者, �
 
     } while ()
 
+1.  推荐在循环对象属性的时候，使用 ``for...in``,
+    在遍历数组的时候的时候使用 ``for...of`` .
+#.  ``for...in`` 循环出的是 key, ``for...of`` 循环出的是 value
+#.  ``for...of`` 是 ES6 新引入的特性. 修复了 ES5 引入的 ``for...in`` 的不足
+#.  ``for...of`` 不能循环普通的对象, 需要通过和 ``Object.keys()`` 搭配使用
+
+以上参考自 https://github.com/wujunchuan/wujunchuan.github.io/issues/11
+
 break 与 continue
 -----------------
 
