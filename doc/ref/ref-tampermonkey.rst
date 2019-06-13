@@ -5,9 +5,6 @@
 添加自己编写的新脚本
 ====================
 
-.. image:: _images/tampermonkey.addnew.png
-    :align: center
-
 在某个页面调出 TamperMonkey 的菜单, 按下 "添加新脚本" 便会自动创建一个模板, 其内容如下:
 
 .. code-block:: javascript
@@ -84,9 +81,6 @@ UserScript 设置的详细文档`_ .
 ----------------------------
 
 需要在 Chrome 的扩展程序设置中设置 "允许访问文件网址" ( FireFox 的设置界面我没找到...)
-
-.. image:: _images/tampermonkey.allowfileurl.chrome.png
-    :align: center
 
 这样, 才能在脚本中 ``@require`` 本地的脚本文件.
 

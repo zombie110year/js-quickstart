@@ -11,3 +11,5 @@ JavaScript 基础
     function
     object-oriented
     dom
+    browser-objects
+    module

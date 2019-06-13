@@ -83,7 +83,7 @@ js 文件中的所有符号都会被导入当前文档所处的作用域当中.
 
     document.evaluate(/* XPath 表达式 */, /* 起始节点 */, /* 命名空间解析器 */, /* 返回类型 */, /* 返回值 */);
 
-具体用法建议参考 `https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Introduction_to_using_XPath_in_JavaScript`_.
+具体用法建议参考 https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Introduction_to_using_XPath_in_JavaScript.
 
 在找到一个子节点后, 也可以继续使用 document 所支持的这些方法, 在子节点中继续寻找. 但不能使用这些方法:
 
@@ -119,24 +119,18 @@ js 文件中的所有符号都会被导入当前文档所处的作用域当中.
 
 如果要添加一个节点, 需要先创建它, 然后将它以现存的节点为锚, 添加到文档中.
 
-1. 创建. 使用 ``document.create`` 方法创建一个元素. 输入的参数是该元素的标签名.
-
-.. code-block:: javascript
+1. 创建. 使用 ``document.create`` 方法创建一个元素. 输入的参数是该元素的标签名::
 
     var _node = document.create("p");
     _node;
     // <p></p>
 
-2. 修改, 给元素添加属性和内部的值.
-
-.. code-block:: javascript
+2. 修改, 给元素添加属性和内部的值::
 
     _node.class = "test";
     _node.innerText = "Hello World";
 
-3. 将元素插入到不同位置
-
-.. code-block:: javascript
+3. 将元素插入到不同位置::
 
     // node 是一个已查找到的元素
     // parent 是 node 的父元素
@@ -144,8 +138,6 @@ js 文件中的所有符号都会被导入当前文档所处的作用域当中.
     parent.appendChild(_node); // 添加到子元素末尾
     parent.insertBefore(_node, node); // 插入到 node 之前
 
-4. 要删除元素, 就先查找到父节点, 然后调用 ``.removeChild`` 方法删除:
-
-.. code-block:: javascript
+4. 要删除元素, 就先查找到父节点, 然后调用 ``.removeChild`` 方法删除::
 
     parent.removeChild(node);
