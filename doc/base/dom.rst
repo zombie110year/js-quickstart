@@ -129,13 +129,23 @@ js 文件中的所有符号都会被导入当前文档所处的作用域当中.
 
 2. 修改, 给元素添加属性和内部的值.
 
+.. code-block:: javascript
+
     _node.class = "test";
     _node.innerText = "Hello World";
 
 3. 将元素插入到不同位置
+
+.. code-block:: javascript
 
     // node 是一个已查找到的元素
     // parent 是 node 的父元素
 
     parent.appendChild(_node); // 添加到子元素末尾
     parent.insertBefore(_node, node); // 插入到 node 之前
+
+4. 要删除元素, 就先查找到父节点, 然后调用 ``.removeChild`` 方法删除:
+
+.. code-block:: javascript
+
+    parent.removeChild(node);
