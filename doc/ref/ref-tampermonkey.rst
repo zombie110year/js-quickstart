@@ -101,6 +101,8 @@ UserScript 设置的详细文档`_ .
 UserScript 设置的详细文档
 =========================
 
+官方文档地址: https://www.tampermonkey.net/documentation.php?ext=dhdg
+
 默认模板:
 
 - ``@name`` 是该脚本的名称
